@@ -1,0 +1,49 @@
+.product {
+  &-image {
+    position: relative;
+
+    .MuiFormControl-root {
+      margin-top: 16px;
+    }
+
+    .MuiInput-underline {
+      &.Mui-disabled {
+        &:before {
+          border-bottom-style: solid;
+        }
+      }
+    }
+
+    input[name='image'] {
+      color: #333;
+    }
+
+    &__icon {
+      position: absolute;
+      right: 0;
+      top: -4px;
+      width: 100%;
+      text-align: right;
+      cursor: pointer;
+    }
+
+    &__show {
+      width: 70%;
+      margin: 20px auto;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &-create {
+    margin-top: 20px !important;
+  }
+
+  &-alert {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+.cart {
+  &-list {
+    max-height: 300px;
+    padding: 20px 10px;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &-item {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddd;
+    padding-bottom: 5px;
+
+    &__quantity {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #333;
+      font-size: 12px;
+    }
+
+    &__name {
+      color: #3749d4;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    &__price {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.home-wrapper {
+  display: flex;
+
+  &__product {
+    width: 70%;
+  }
+
+  &__order {
+    width: 30%;
+    border-left: 1px solid #ddd;
+  }
+}
